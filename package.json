@@ -62,7 +62,7 @@
     "prettier_cmd": "prettier --list-different"
   },
   "scripts": {
-    "build": "tsc --build",
+    "build": "tsc -p tsconfig.base.json",
     "build-docs": "./build-docs.sh",
     "lint-ts": "tslint -c ./tslint.json --project ./tsconfig.json",
     "lint-ts-fix": "tslint -c ./tslint.json --project ./tsconfig.json --fix",
