@@ -3,5 +3,5 @@ export default {
   SNAP_ACCOUNTS_TOKEN_URL:
     'https://accounts.snapchat.com/accounts/oauth2/token',
   SNAP_KIT_API_URL: 'https://kit.snapchat.com/v1',
-  OAUTH_SCOPE_URL_PREFIX: '',
+  OAUTH_SCOPE_URL_PREFIX: '', // FORK: scope URL prefix doesn't work for markting api.
 };
